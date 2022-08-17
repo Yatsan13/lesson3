@@ -1,4 +1,5 @@
-﻿Console.Write("Введите число: ");
+﻿/*
+Console.Write("Введите число: ");
 string number = Console.ReadLine();
 int length = number.Length;
 if (length == 5)
@@ -15,3 +16,17 @@ Console.WriteLine($"{number} является палидромом");
     {
         Console.WriteLine($"{number} не является пятизначным числом");
     }
+    */
+
+/*
+    int number = ReadInt("Введите число: ");
+int ReadInt(string message)
+{
+    Console.Write(message);
+    return Convert.ToInt32(Console.ReadLine());
+}
+    for (int i = 1; i <= number; i++)
+    {
+        Console.WriteLine($"{i*i*i}");
+    }
+    */
